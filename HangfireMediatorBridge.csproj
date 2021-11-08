@@ -3,19 +3,22 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>HangfireMediator</RootNamespace>
-    <Title>IT Minds HangfireMediator</Title>
+    <Title>IT Minds Hangfire Mediator Bridge</Title>
     <PackageId>ITMinds.HangfireMediator</PackageId>
     <Authors>Martin Johannesson</Authors>
     <Company>IT Minds</Company>
-    <Version>0.2.0</Version>
+    <Version>1.0.0-alpha.1</Version>
     <PackageTags>.NET;MediatR;Hangfire</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/IT-Minds/itm_hangfire-mediator-bridge</RepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Hangfire" Version="1.7.27" />
     <PackageReference Include="MediatR" Version="9.0.0" />
-    <None Include=".\README.md" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
