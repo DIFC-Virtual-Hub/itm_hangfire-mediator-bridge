@@ -21,17 +21,17 @@ jobs:
         with:
           dotnet-version: 5.0.x
 
-      - name: Install dotnet tool
-        run: dotnet tool install -g dotnetCampus.TagToVersion
-
-      - name: Set tag to version
-        run: dotnet TagToVersion -t ${{ github.ref }}
-
       - name: Install dependencies
         run: dotnet restore
 
+      - name: Install dotnet tool
+        run: dotnet tool install -g dotnetCampus.TagToVersion
+
       - name: Build
         run: dotnet build --configuration Release --no-restore
+
+      - name: Set tag to version
+        run: dotnet TagToVersion -t ${{ github.ref }}
 
       - name: Publish FluentEmail.Core
         uses: brandedoutcast/publish-nuget@v2.5.2
