@@ -4,7 +4,7 @@
 
 1. Clone the repo
 2. Checkout a branch using our [branching strategy](#Branching%20Strategy)
-3. `npm i` runs the prepare so you are ready to go.
+3. Code!
 
 ## Branching Strategy
 
@@ -18,17 +18,14 @@
 Use one of these branches.
 If you do not know which to use please contact us at opensource@it-minds.dk.
 
-## Type Definitions
+## Methodology
 
-We are writing our own type definitions in a seperate typescript file.
-Follow this convention and if you got a better idea feel free to open an issue.
+RESERVED
 
 ## Testing
 
-When creating new features be sure to also create test that covers 100% of the code.
-We accept nothing less than full coverage.
+RESERVED
 
 ## Committing
 
-This repo is using [husky](https://github.com/typicode/husky) to provide easy pre commit hook linking.
-The pre-commit is setup to automatically lint and test your code. Do not force commit if these check fail.
+RESERVED
