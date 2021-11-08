@@ -7,7 +7,7 @@
     <PackageId>ITMinds.HangfireMediator</PackageId>
     <Authors>Martin Johannesson</Authors>
     <Company>IT Minds</Company>
-    <Version>1.0.0-alpha.1</Version>
+    <Version>1.0.0-alpha.2</Version>
     <PackageTags>.NET;MediatR;Hangfire</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/IT-Minds/itm_hangfire-mediator-bridge</RepositoryUrl>
@@ -18,7 +18,7 @@
   <ItemGroup>
     <PackageReference Include="Hangfire" Version="1.7.27" />
     <PackageReference Include="MediatR" Version="9.0.0" />
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
