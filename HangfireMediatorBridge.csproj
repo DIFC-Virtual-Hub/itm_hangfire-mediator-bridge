@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>HangfireMediator</RootNamespace>
+    <Title>IT Minds HangfireMediator</Title>
+    <PackageId>ITMinds.HangfireMediator</PackageId>
+    <Authors>Martin Johannesson</Authors>
+    <Company>IT Minds</Company>
+    <Version>0.2.0</Version>
+    <PackageTags>.NET;MediatR;Hangfire</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.27" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <None Include=".\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
